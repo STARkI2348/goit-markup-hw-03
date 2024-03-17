@@ -6,6 +6,7 @@ body {
 
 ul {
   list-style: none;
+  padding-inline-start: 0;
 }
 
 a {
@@ -46,6 +47,11 @@ a {
   color: #404bbf;
 }
 
+.header {
+  padding-top: 24px;
+  padding-bottom: 24px;
+}
+
 .address {
   font-style: normal;
 }
@@ -77,6 +83,10 @@ a {
   letter-spacing: 0.02em;
   color: #ffffff;
   text-align: center;
+}
+
+.hero_title_wrap {
+  padding: 188px, 472px, 292px, 472px;
 }
 
 .hero_btn {
@@ -185,4 +195,11 @@ a {
   line-height: 150%;
   letter-spacing: 0.02em;
   color: #f4f4fd;
+}
+
+.container {
+  max-width: 1158px;
+  margin: 0 auto;
+  padding-left: 15px;
+  padding-right: 15px;
 }
