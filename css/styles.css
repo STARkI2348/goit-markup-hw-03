@@ -1,3 +1,7 @@
+h1 {
+  margin: 0;
+}
+
 body {
   font-family: "Roboto", sans-serif;
   color: #434455;
@@ -31,6 +35,10 @@ a {
   color: #f4f4fd;
 }
 
+.header {
+  border-bottom: 1px solid;
+}
+
 .header_manu_link {
   font-weight: 500;
   font-size: 16px;
@@ -45,11 +53,6 @@ a {
 
 .header_manu_link:focus {
   color: #404bbf;
-}
-
-.header {
-  padding-top: 24px;
-  padding-bottom: 24px;
 }
 
 .address {
@@ -83,10 +86,8 @@ a {
   letter-spacing: 0.02em;
   color: #ffffff;
   text-align: center;
-}
-
-.hero_title_wrap {
-  padding: 188px, 472px, 292px, 472px;
+  margin: 0 auto;
+  max-width: 496px;
 }
 
 .hero_btn {
@@ -97,8 +98,14 @@ a {
   letter-spacing: 0.04em;
   color: #ffffff;
   background-color: #4d5ae5;
-
+  margin: 0 auto;
+  display: block;
+  margin-top: 48px;
   cursor: pointer;
+  box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+  padding: 16px 32px;
+  border: 0;
 }
 
 .hero_btn:hover {
@@ -115,6 +122,8 @@ a {
   line-height: 120%;
   letter-spacing: 0.02em;
   color: #2e2f42;
+  margin-bottom: 8px;
+  margin-top: 0;
 }
 
 .info_list_item_text {
@@ -123,6 +132,11 @@ a {
   line-height: 150%;
   letter-spacing: 0.02em;
   color: #434455;
+  margin: 0;
+}
+
+.info_list_item {
+  width: calc((100% - 2 * 24) / 4);
 }
 
 .team {
@@ -175,6 +189,9 @@ a {
   line-height: 120%;
   letter-spacing: 0.02em;
   color: #2e2f42;
+  margin-top: 0;
+  padding-top: 32px;
+  margin-bottom: 8px;
 }
 
 .portfolio_text {
@@ -183,6 +200,8 @@ a {
   line-height: 150%;
   letter-spacing: 0.02em;
   color: #434455;
+  margin: 0;
+  padding-bottom: 32px;
 }
 
 .footer {
@@ -202,4 +221,63 @@ a {
   margin: 0 auto;
   padding-left: 15px;
   padding-right: 15px;
+}
+
+.header .container {
+  padding-top: 24px;
+  padding-bottom: 24px;
+  display: flex;
+}
+
+.header_navigation {
+  display: flex;
+  align-items: center;
+  flex-grow: 1;
+  justify-content: space-between;
+  margin-right: 332px;
+}
+
+.navigation_list {
+  display: flex;
+  gap: 40px;
+}
+
+.address_list {
+  display: flex;
+  gap: 40px;
+}
+
+.hero .container {
+  padding-top: 188px;
+  padding-bottom: 188px;
+}
+
+.info .container {
+  padding-top: 120px;
+  padding-bottom: 120px;
+}
+
+.info_list {
+  margin: 0;
+  display: flex;
+}
+
+.team .container {
+  padding-top: 120px;
+  padding-bottom: 120px;
+}
+
+.portfolio .container {
+  padding-top: 120px;
+  padding-bottom: 120px;
+}
+
+.footer .container {
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+
+.portfolio_card {
+  border: 1px #e7e9fc solid;
+  border-top: 0px;
 }
