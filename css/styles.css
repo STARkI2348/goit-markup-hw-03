@@ -263,10 +263,6 @@ header {
   gap: 40px;
 }
 
-.nav_list_itam {
-  padding: 24px 0 24px;
-}
-
 .address_list {
   display: flex;
   gap: 40px;
