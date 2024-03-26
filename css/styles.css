@@ -31,6 +31,7 @@ img {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: #4d5ae5;
+  margin-right: 76px;
 }
 
 .logo_link_style_header {
@@ -39,10 +40,6 @@ img {
 
 .logo_link_style_footer {
   color: #f4f4fd;
-}
-
-.header {
-  border-bottom: 1px solid;
 }
 
 .header_manu_link {
@@ -246,6 +243,7 @@ img {
 .header .container {
   padding-top: 24px;
   padding-bottom: 24px;
+  border-bottom: 1px solid;
   display: flex;
 }
 
@@ -254,7 +252,6 @@ img {
   align-items: center;
   flex-grow: 1;
   justify-content: space-between;
-  margin-right: 332px;
 }
 
 .navigation_list {
