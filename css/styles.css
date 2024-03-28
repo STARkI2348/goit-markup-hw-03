@@ -248,13 +248,14 @@ img {
 }
 
 .header .container {
-  padding: 24, 15, 24, 15;
   border-bottom: 1px solid;
   display: flex;
 }
 
 header {
   border-bottom: 1px solid #e7e9fc;
+  padding-left: 15px;
+  padding-right: 15px;
 }
 
 .header_navigation {
