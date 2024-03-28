@@ -141,7 +141,12 @@ img {
 }
 
 .info_list_item {
-  width: calc((100% - 2 * 24) / 4);
+  margin-right: 24px;
+  max-width: 264px;
+}
+
+.info_list_item:last-child {
+  margin-right: 0;
 }
 
 .team {
@@ -243,8 +248,7 @@ img {
 }
 
 .header .container {
-  padding-top: 15px;
-  padding-bottom: 15px;
+  padding: 24, 15, 24, 15;
   border-bottom: 1px solid;
   display: flex;
 }
@@ -256,9 +260,8 @@ header {
 .header_navigation {
   display: flex;
   align-items: center;
-  flex-grow: 1;
   justify-content: space-between;
-  height: 24px;
+  margin-right: 332px;
 }
 
 .navigation_list {
@@ -274,6 +277,11 @@ header {
 .address_list {
   display: flex;
   gap: 40px;
+}
+
+.address_item {
+  padding-top: 24px;
+  padding-bottom: 24px;
 }
 
 .hero .container {
