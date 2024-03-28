@@ -13,6 +13,7 @@ body {
 ul {
   list-style: none;
   padding-inline-start: 0;
+  margin: 0;
 }
 
 a {
@@ -109,6 +110,7 @@ img {
   border-radius: 4px;
   padding: 16px 32px;
   border: 0;
+  min-width: 169px;
 }
 
 .hero_btn:hover {
@@ -241,8 +243,8 @@ img {
 }
 
 .header .container {
-  padding-top: 24px;
-  padding-bottom: 24px;
+  padding-top: 15px;
+  padding-bottom: 15px;
   border-bottom: 1px solid;
   display: flex;
 }
@@ -256,11 +258,17 @@ header {
   align-items: center;
   flex-grow: 1;
   justify-content: space-between;
+  height: 24px;
 }
 
 .navigation_list {
   display: flex;
   gap: 40px;
+}
+
+.nav_list_itam {
+  padding-top: 24px;
+  padding-bottom: 24px;
 }
 
 .address_list {
