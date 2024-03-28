@@ -170,6 +170,7 @@ img {
   line-height: 120%;
   letter-spacing: 0.02em;
   color: #2e2f42;
+  margin-bottom: 8px;
 }
 
 .time_text {
@@ -179,13 +180,12 @@ img {
   letter-spacing: 0.02em;
   color: #434455;
   margin: 0;
-  margin-top: 8px;
 }
 
 .time_list_item {
   background-color: #ffffff;
   border-radius: 0 0 4px 4px;
-  padding: 0px 0px 32px 0px;
+
   box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08),
     0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08);
   width: 264px;
@@ -193,9 +193,7 @@ img {
 }
 
 .wraper_time_content {
-  width: 232px;
-  height: 56px;
-  margin: 32px 16px;
+  padding: 32px 16px;
   text-align: center;
 }
 
@@ -276,12 +274,12 @@ header {
   gap: 40px;
 }
 
-.hero .container {
+.hero {
   padding-top: 188px;
   padding-bottom: 188px;
 }
 
-.info .container {
+.info {
   padding-top: 120px;
   padding-bottom: 120px;
 }
@@ -291,7 +289,7 @@ header {
   display: flex;
 }
 
-.team .container {
+.team {
   padding-top: 120px;
   padding-bottom: 120px;
 }
@@ -302,7 +300,7 @@ header {
   margin: 0;
 }
 
-.portfolio .container {
+.portfolio {
   padding-top: 120px;
   padding-bottom: 120px;
 }
@@ -314,7 +312,7 @@ header {
   row-gap: 48px;
 }
 
-.footer .container {
+.footer {
   padding-top: 100px;
   padding-bottom: 100px;
 }
@@ -325,4 +323,20 @@ header {
   padding: 32px 16px;
   width: 360px;
   height: 120px;
+}
+
+.footer {
+  padding: 100px 0;
+}
+
+.logo_link_footer {
+  font-family: "Raleway", sans-serif;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 117%;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #4d5ae5;
+  display: inline-block;
+  margin-bottom: 16px;
 }
