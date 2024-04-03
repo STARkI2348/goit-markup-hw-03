@@ -24,6 +24,8 @@ img {
   display: block;
 }
 
+/*================HEADER=====================================================================================*/
+
 .logo_link {
   font-family: "Raleway", sans-serif;
   font-weight: 700;
@@ -79,14 +81,10 @@ img {
   color: #404bbf;
 }
 
+/*==============HERO===============================================================================================*/
+
 .hero {
-  
-  background-image: linear-gradient(
-      rgba(46, 47, 66, 0.7),
-      rgba(46, 47, 66, 0.7)
-    ),
-    url(../images/people-office.jpg);
-    background-color: #2e2f42;
+  background-color: #2e2f42;
 }
 
 .hero_title {
@@ -127,6 +125,8 @@ img {
   background-color: #404bbf;
 }
 
+/*================INFO===============================================================================================*/
+
 .info_list_item_subtitle {
   font-weight: 500;
   font-size: 20px;
@@ -135,19 +135,6 @@ img {
   color: #2e2f42;
   margin-bottom: 8px;
   margin-top: 0;
-}
-
-.visually-hidden {
-  position: absolute;
-  width: 1px;
-  height: 1px;
-  margin: -1px;
-  border: 0;
-  padding: 0;
-  white-space: nowrap;
-  clip-path: inset(100%);
-  clip: rect(0 0 0 0);
-  overflow: hidden;
 }
 
 .info_list_item_text {
@@ -167,6 +154,8 @@ img {
 .info_list_item:last-child {
   margin-right: 0;
 }
+
+/*=======================TEAM=========================================================================================*/
 
 .team {
   background-color: #f4f4fd;
@@ -208,12 +197,15 @@ img {
   box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08),
     0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08);
   width: 264px;
+  height: 380px;
 }
 
 .wraper_time_content {
   padding: 32px 16px;
   text-align: center;
 }
+
+/*================PORTFOLIO====================================================================================================*/
 
 .portfolio_title {
   font-weight: 700;
@@ -243,6 +235,8 @@ img {
   color: #434455;
   margin: 0;
 }
+
+/*=================FOOTER===========================================================================================================*/
 
 .footer {
   background-color: #2e2f42;
@@ -357,61 +351,4 @@ header {
   color: #4d5ae5;
   display: inline-block;
   margin-bottom: 16px;
-}
-
-.info_list_item_box {
-  border: 1px solid #8e8f99;
-  border-radius: 4px;
-  height: 112px;
-  background-color: #f4f4fd;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
-.time_icon_list {
-  display: flex;
-  margin-top: 8px;
-  gap: 24px;
-}
-
-.time_icon {
-  width: 16px;
-  height: 16px;
-}
-
-.time_link_icon {
-  width: 40px;
-  height: 40px;
-  background-color: #4d5ae5;
-  border-radius: 50%;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
-.time_link_icon:hover {
-  background-color: #31d0aa;
-}
-
-/*.portfolio_list_item:hover .portfolio_card {
-  box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25);
-}
-
-.portfolio_list_item:hover .portfolio_subtitle {
-  text-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25);
-}*/
-
-.portfolio_list_item:hover {
-  box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08);
-  background: #fff;
-}
-.portfolio_card:hover {
-  box-shadow: 0 1px 1px 0 rgba(46, 47, 66, 0.16);
-  background: #fff;
-}
-
-.portfolio_subtitle {
-  text-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25);
-  background: #fff;
 }
