@@ -24,7 +24,31 @@ img {
   display: block;
 }
 
+.container {
+  max-width: 1158px;
+  margin: 0 auto;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
 /*================HEADER=====================================================================================*/
+
+header {
+  border-bottom: 1px solid #e7e9fc;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.header .container {
+  display: flex;
+}
+
+.header_navigation {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-right: 332px;
+}
 
 .logo_link {
   font-family: "Raleway", sans-serif;
@@ -35,14 +59,17 @@ img {
   text-transform: uppercase;
   color: #4d5ae5;
   margin-right: 76px;
+  padding-top: 24px;
+  padding-bottom: 24px;
 }
 
 .logo_link_style_header {
   color: #2e2f42;
 }
 
-.logo_link_style_footer {
-  color: #f4f4fd;
+.navigation_list {
+  display: flex;
+  gap: 40px;
 }
 
 .header_manu_link {
@@ -65,12 +92,19 @@ img {
   font-style: normal;
 }
 
+.address_list {
+  display: flex;
+  gap: 40px;
+}
+
 .address_link {
   font-weight: 400;
   font-size: 16px;
   line-height: 150%;
   letter-spacing: 0.02em;
   color: #434455;
+  padding-top: 24px;
+  padding-bottom: 24px;
 }
 
 .address_link:hover {
@@ -85,6 +119,8 @@ img {
 
 .hero {
   background-color: #2e2f42;
+  padding-top: 188px;
+  padding-bottom: 188px;
 }
 
 .hero_title {
@@ -127,6 +163,34 @@ img {
 
 /*================INFO===============================================================================================*/
 
+.info {
+  padding-top: 120px;
+  padding-bottom: 120px;
+}
+
+.visually_hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+
+.info_list {
+  margin: 0;
+  display: flex;
+}
+
+.info_list_item {
+  margin-right: 24px;
+  max-width: 264px;
+}
+
 .info_list_item_subtitle {
   font-weight: 500;
   font-size: 20px;
@@ -146,11 +210,6 @@ img {
   margin: 0;
 }
 
-.info_list_item {
-  margin-right: 24px;
-  max-width: 264px;
-}
-
 .info_list_item:last-child {
   margin-right: 0;
 }
@@ -159,6 +218,8 @@ img {
 
 .team {
   background-color: #f4f4fd;
+  padding-top: 120px;
+  padding-bottom: 120px;
 }
 
 .team_title {
@@ -170,6 +231,27 @@ img {
   text-align: center;
   text-transform: capitalize;
   margin-bottom: 72px;
+}
+
+.team_list {
+  display: flex;
+  gap: 24px;
+  margin: 0;
+}
+
+.time_list_item {
+  background-color: #ffffff;
+  border-radius: 0 0 4px 4px;
+
+  box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08),
+    0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08);
+  width: 264px;
+  height: 380px;
+}
+
+.wraper_time_content {
+  padding: 32px 16px;
+  text-align: center;
 }
 
 .time_subtitle {
@@ -190,22 +272,12 @@ img {
   margin: 0;
 }
 
-.time_list_item {
-  background-color: #ffffff;
-  border-radius: 0 0 4px 4px;
-
-  box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08),
-    0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08);
-  width: 264px;
-  height: 380px;
-}
-
-.wraper_time_content {
-  padding: 32px 16px;
-  text-align: center;
-}
-
 /*================PORTFOLIO====================================================================================================*/
+
+.portfolio {
+  padding-top: 120px;
+  padding-bottom: 120px;
+}
 
 .portfolio_title {
   font-weight: 700;
@@ -216,6 +288,21 @@ img {
   text-align: center;
   text-transform: capitalize;
   margin-bottom: 72px;
+}
+
+.portfolio_list {
+  display: flex;
+  flex-wrap: wrap;
+  column-gap: 24px;
+  row-gap: 48px;
+}
+
+.portfolio_card {
+  border: 1px #e7e9fc solid;
+  border-top: 0px;
+  padding: 32px 16px;
+  width: 360px;
+  height: 120px;
 }
 
 .portfolio_subtitle {
@@ -240,105 +327,8 @@ img {
 
 .footer {
   background-color: #2e2f42;
-}
-
-.footer_text {
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 150%;
-  letter-spacing: 0.02em;
-  color: #f4f4fd;
-}
-
-.container {
-  max-width: 1158px;
-  margin: 0 auto;
-  padding-left: 15px;
-  padding-right: 15px;
-}
-
-.header .container {
-  display: flex;
-}
-
-header {
-  border-bottom: 1px solid #e7e9fc;
-  padding-left: 15px;
-  padding-right: 15px;
-  padding-top: 24px;
-  padding-bottom: 24px;
-}
-
-.header_navigation {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  margin-right: 332px;
-}
-
-.navigation_list {
-  display: flex;
-  gap: 40px;
-}
-
-.address_list {
-  display: flex;
-  gap: 40px;
-}
-
-.hero {
-  padding-top: 188px;
-  padding-bottom: 188px;
-}
-
-.info {
-  padding-top: 120px;
-  padding-bottom: 120px;
-}
-
-.info_list {
-  margin: 0;
-  display: flex;
-}
-
-.team {
-  padding-top: 120px;
-  padding-bottom: 120px;
-}
-
-.team_list {
-  display: flex;
-  gap: 24px;
-  margin: 0;
-}
-
-.portfolio {
-  padding-top: 120px;
-  padding-bottom: 120px;
-}
-
-.portfolio_list {
-  display: flex;
-  flex-wrap: wrap;
-  column-gap: 24px;
-  row-gap: 48px;
-}
-
-.footer {
   padding-top: 100px;
   padding-bottom: 100px;
-}
-
-.portfolio_card {
-  border: 1px #e7e9fc solid;
-  border-top: 0px;
-  padding: 32px 16px;
-  width: 360px;
-  height: 120px;
-}
-
-.footer {
-  padding: 100px 0;
 }
 
 .logo_link_footer {
@@ -351,4 +341,16 @@ header {
   color: #4d5ae5;
   display: inline-block;
   margin-bottom: 16px;
+}
+
+.logo_link_style_footer {
+  color: #f4f4fd;
+}
+
+.footer_text {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 150%;
+  letter-spacing: 0.02em;
+  color: #f4f4fd;
 }
