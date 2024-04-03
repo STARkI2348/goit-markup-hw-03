@@ -31,6 +31,19 @@ img {
   padding-right: 15px;
 }
 
+.visually_hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+
 /*================HEADER=====================================================================================*/
 
 header {
@@ -41,13 +54,12 @@ header {
 
 .header .container {
   display: flex;
+  align-items: center;
 }
 
 .header_navigation {
   display: flex;
   align-items: center;
-  justify-content: space-between;
-  margin-right: 332px;
 }
 
 .logo_link {
@@ -59,8 +71,6 @@ header {
   text-transform: uppercase;
   color: #4d5ae5;
   margin-right: 76px;
-  padding-top: 24px;
-  padding-bottom: 24px;
 }
 
 .logo_link_style_header {
@@ -78,18 +88,18 @@ header {
   line-height: 150%;
   letter-spacing: 0.02em;
   color: #2e2f42;
+  padding: 24px 0;
+  display: block;
 }
 
-.header_manu_link:hover {
-  color: #404bbf;
-}
-
+.header_manu_link:hover,
 .header_manu_link:focus {
   color: #404bbf;
 }
 
 .address {
   font-style: normal;
+  margin-left: auto;
 }
 
 .address_list {
@@ -107,10 +117,7 @@ header {
   padding-bottom: 24px;
 }
 
-.address_link:hover {
-  color: #404bbf;
-}
-
+.address_link:hover,
 .address_link:focus {
   color: #404bbf;
 }
@@ -166,19 +173,6 @@ header {
 .info {
   padding-top: 120px;
   padding-bottom: 120px;
-}
-
-.visually_hidden {
-  position: absolute;
-  width: 1px;
-  height: 1px;
-  margin: -1px;
-  border: 0;
-  padding: 0;
-  white-space: nowrap;
-  clip-path: inset(100%);
-  clip: rect(0 0 0 0);
-  overflow: hidden;
 }
 
 .info_list {
