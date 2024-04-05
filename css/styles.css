@@ -48,8 +48,6 @@ img {
 
 header {
   border-bottom: 1px solid #e7e9fc;
-  padding-left: 15px;
-  padding-right: 15px;
 }
 
 .header .container {
@@ -114,6 +112,7 @@ header {
   letter-spacing: 0.02em;
   color: #434455;
   padding: 24px 0;
+  display: block;
 }
 
 .address_link:hover,
@@ -346,4 +345,5 @@ header {
   line-height: 150%;
   letter-spacing: 0.02em;
   color: #f4f4fd;
+  max-width: 264px;
 }
